@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "execute": "node dist/tableaux.js",
+    "execute": "node dist/paie.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
