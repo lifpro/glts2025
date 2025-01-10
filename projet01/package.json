@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "kajoo": "npx tsc",
-    "ko": "node dist/tableaux.js",
+    "build": "npx tsc",
+    "execute": "node dist/tableaux.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

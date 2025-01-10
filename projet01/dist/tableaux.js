@@ -35,9 +35,21 @@ emps.push({
     age: 55,
     sexe: "F",
 });
-let filles = emps.filter((e) => e.sexe === "F");
-let vieux = emps.filter((e) => e.age >= 40);
-const kone = emps.find((e) => e.nom === "KONE");
-let sum = emps.reduce((i, c) => i + c.age, 0);
-console.table(emps);
-console.log(sum);
+// const filles: Employees[] = emps.filter((e) => e.sexe === "F");
+// var vieux: Employees[] = emps.filter((e) => e.age >= 40);
+// const kone: any = emps.find((e) => e.nom === "KONE");
+//let sum: number = emps.reduce((i, c) => i + c.age, 0);
+// let total = 0;
+// emps.forEach((e) => {
+//   total = total + e.age;
+// });
+// console.table(emps);
+// console.log(sum);
+// Les map
+let values = [1, 2, 3];
+let squares = [];
+values.forEach((e) => {
+    squares.push(e * e);
+});
+let squaresmap = values.map((n) => n * n);
+console.log(squaresmap);
