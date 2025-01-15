@@ -25,7 +25,6 @@ try {
   calculateAge(15);
 } catch (error: unknown) {
   if (error instanceof Error) {
-    console.log("Une erreure est survenue: " + error.message);
   }
   if (error instanceof NumberError) {
     console.log(error.message);
