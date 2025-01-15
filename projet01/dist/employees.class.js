@@ -21,6 +21,7 @@ class Employees {
         this.salaire = salaire;
     }
     afficherFiche() {
+        console.log(this);
         console.table(this);
     }
 }

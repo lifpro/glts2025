@@ -25,6 +25,7 @@ export class Employees {
     this.salaire = salaire;
   }
   afficherFiche(): void {
+    console.log(this);
     console.table(this);
   }
 }
