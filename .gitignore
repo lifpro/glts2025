@@ -35,6 +35,7 @@ yarn-error.log
 testem.log
 /typings
 /projet01/node_modules
+/projet01/dist
 /projet02/node_modules
 /projet02/dist
 # System files
